@@ -61,7 +61,6 @@ canvas {
     letter-spacing: 0.2px;
     text-align: center;
     z-index: 5;
-
     transition: transform 1s;
 }
 
@@ -76,8 +75,6 @@ canvas {
 .tooltip:not([hidden]) + .tooltip:not([hidden]) {
     transform: translateY(-80px);
 }
-
-
 
 .loadingOverlay {
     position: absolute;
@@ -97,9 +94,6 @@ canvas {
 .loadingOverlay:not([hidden]) {
     background-color: black;
 }
-
-
-
 
 .sceneContainer {
     position: absolute;
@@ -146,7 +140,7 @@ button, h1, h2, h3, p, a {
 }
 
 #scene1 > .title, #scene2 > .title, #scene3 > .title {
-    font-size: 64px;
+    font-size: 30px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -154,6 +148,7 @@ button, h1, h2, h3, p, a {
     font-size: 20px;
     font-weight: normal;
 }
+
 
 #scene1 {
     margin-right: 50vw;
@@ -165,8 +160,8 @@ button, h1, h2, h3, p, a {
 }
 
 #scene3 {
-    margin-left: 60vw;
-    margin-top: -30vh;
+    margin-left: 40vw;
+    margin-top: -20vh;
 }
 
 .notTransitionedYet #scene2 {
@@ -174,7 +169,7 @@ button, h1, h2, h3, p, a {
 }
 
 .body {
-    margin: 4px;
+    margin: 10px;
 }
 
 .invisible > * {
