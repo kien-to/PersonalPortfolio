@@ -147,7 +147,7 @@ button, h1, h2, h3, p, a {
 }
 
 #scene1 > .title, #scene2 > .title, #scene3 > .title {
-    font-size: 30px;
+    font-size:26px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -362,7 +362,7 @@ iframe[sandbox] .read-article{
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  /* margin: auto; */
 }
 
 /* Hide the images by default */
